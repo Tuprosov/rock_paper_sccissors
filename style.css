@@ -1,0 +1,41 @@
+html {
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-height: 100vh;
+}
+
+p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.choices {
+    display: flex;
+    gap: 2rem;
+}
+
+.round-count {
+    font-size: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.score-label, .scores {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.scores {
+    gap: 6rem;
+}
